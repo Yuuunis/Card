@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.cardgame.app-mergeReleaseResources-39:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/data/data/com.termux/files/home/.gradle/caches/8.14.2/transforms/941e468d5b809cf846595048ba5ac87d/transformed/core-1.10.1/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}
