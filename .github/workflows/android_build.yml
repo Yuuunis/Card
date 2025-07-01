@@ -15,13 +15,17 @@ jobs:
         distribution: 'temurin'
         cache: gradle
 
+    - name: Install Android SDK Build-Tools and Platform
+      run: |
+        sdkmanager "build-tools;33.0.0" "platforms;android-33"
+
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
 
     - name: Clean and Build with Gradle
       run: |
         ./gradlew clean
-        ./gradlew assembleRelease
+        ./gradlew build
 
     - name: Upload APK
       uses: actions/upload-artifact@v4
